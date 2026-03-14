@@ -2,11 +2,21 @@
   "name": "myportfolio2",
   "version": "0.1.0",
   "private": true,
+  "description": "A cinematic creative developer portfolio built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.",
+  "author": "Ritik Patel",
+  "homepage": "https://github.com/ritikpatell/MyPortfolio2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ritikpatell/MyPortfolio2.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=18.17.0"
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.42",
